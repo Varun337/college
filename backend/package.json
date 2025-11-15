@@ -1,0 +1,33 @@
+{
+  "name": "fraud-backend",
+  "version": "1.0.0",
+  "description": "AI Fraud Detection Backend (Node.js + Express + MongoDB)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "fraud",
+    "ai",
+    "mongodb",
+    "express",
+    "nodejs",
+    "api"
+  ],
+  "author": "Varun Parmar",
+  "license": "MIT"
+}
